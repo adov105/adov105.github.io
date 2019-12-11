@@ -31,7 +31,7 @@
     }
     header{
 	
-	width: 1170px;
+	width: 1070px;
 	height: 200px;
 	margin-top: -50px;
 	border: solid 0px red;
@@ -64,7 +64,7 @@
     	margin-left: 350px;
     	width:1400px;
     	height: 790px;
-    	border: solid 1px yellow;
+    	border: solid 0px yellow;
     }
     #nav1 li{
     	display: inline;
@@ -81,6 +81,38 @@
     }
     #aisde3{
 
+    }
+    #as{
+   margin-left: 350px;
+   padding-left: 10px;
+    	color: white;
+    	background-color: #a49c7b;
+    	width: 600px;
+    	border: solid 0px #000000;
+    	border-width: 10px;
+    	border-color: #999377;
+
+    }
+    #ce{
+    	padding-left: 250px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+    #ce2{
+    	padding-left: 450px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+    #s1{
+    	margin-bottom: 10px;
+    	margin-left: 230px;
+    	width: 70px;
+    	height: 30px;
+    	color: white;
+    	background-color: #8f8a75;
+    	border-collapse: collapse;
+
+    	
     }
 
 </style>
@@ -109,7 +141,45 @@
 		
 	</aside>
 	<section>
-		<audio src='mg1.mp3'controls autoplay loop>try every thing</audio>
+		<form>
+			<div id="as">
+			<h1>입국 심사서 예시 (front)<br></h1>
+			(영어로 작성하십시오.)
+
+			<h3>▶ 성 <input type="text" name="name" placeholder="CHO"><br><br>
+			<h3>▶ 이름 <input type="text" name="l.name" placeholder="Byeong - min"><br><br>
+			<h3>▶ 여권번호 <input type="text" name="a.n"placeholder="YP0037296"><br>
+			<h5>&nbsp;&nbsp; &nbsp; ◆ 비행편 번호 혹은 선박 이름<input type="text" name="p.n"placeholder="OZ332"><br><br>
+			<h3>▶ 호주내에서 체류할 주소 <br>&nbsp;&nbsp;<textarea cols="35" rows="1">SYDNEY MARRIOTT HOTEL 361-8400</textarea><br>
+			<h3>▶ 다음 12개월 동안 호주에 머물계획이십니까 ? <input type="radio" name="yes1">Yes <input type="radio" name="yes1">No<br><br>
+			<h3>▶ 당신이 호주 시민이 아니라면 <br></h3>
+			 <h5>&nbsp;&nbsp; &nbsp;결핵을 앓고 있습니까 ? <input type="radio" name="yes2">Yes <input type="radio" name="yes2">No<br>
+			 	<h5>&nbsp;&nbsp; &nbsp;범죄 전과가 있습니까 ? <input type="radio" name="yes3">Yes  <input type="radio" name="yes3">No
+                </h5><br>
+                <h3>▶ 입국일 
+                <input type="date"></h3><br><br><br><br>
+
+                
+             <br><h1>입국 심사서 예시 (back)<br></h1>
+             (영어로 작성하십시오 .)
+            <br> <h3>▶ 어느 나라에서 이 비행편 혹은 선박에 탑승하였습니까 ? <br>
+             	<input type="text" name="at" placeholder="KOREA"></h3><br>
+             	<h3> ▶ 당신의 평소 직업은 무엇입니까? <br>
+             		<input type="text" name="bs" placeholder="워.홀의 경우 STUDENT"></h3><br>
+             	<h3> ▶ 여권에 기재된 국적 <br>
+             		<input type="text" name="gl1" placeholder="KOREA"></h3><br>
+             		<h3> ▶ 생년 월일 <br>
+             			<input type="date" name="bd"><br><br>
+
+             			<input id ="s1" type="submit" name="submit" value="Submit"></div>
+
+		
+ 		
+ 		<br><br>
+ 	
+
+
+		</form>
 	</section>
 </body>
 
