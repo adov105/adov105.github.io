@@ -66,6 +66,7 @@
     	width: 1000px;
     	height: 500px;
     	border: solid 0px yellow;
+    	color: white;
     }
     #nav1 li{
     	display: inline;
@@ -80,7 +81,47 @@
     #aside2 {
     	font-size: 18px;
     }
-    #aisde3{
+    #d1{
+    	background-color: #4669b9;
+    	border-color: #4669b9;
+    	margin-left: -60px;
+    	width: 520px;
+    	height: 500px;
+    	padding-left: 110px;
+    	padding-top: 50px;
+    }
+    #d3{
+    	width: 200px;
+    	height: 30px;
+    }
+    #d5{
+    	width: 150px;
+    	height: 30px;
+    }
+    #d4{
+    	width: 250px;
+    	height: 80px;
+    	background-color: #445680;
+    	border:1px;
+    	font-size: 18px;
+    }
+    input[type="text"]
+    {
+    	border : 1px;
+    	background-color: #445680;
+    	font-size : 16px;
+    }
+    #i1{
+    	border : 1px;
+    	background-color: #333e58;
+    	float: left;
+    	width: 120px;
+    	height: 40px;
+    	margin-top: 100px;
+    	margin-left: 150px;
+    	color: white;
+    	font-size: 17px;
+    }
 
 
 
@@ -90,12 +131,12 @@
 <body>
 	<div id="page">
 	<header>
-		<a href="test2.html"><img src="tit.png"></a>
+		<a href="test2.html"><img src="tit.PNG"></a>
 		
 		
 	</header>
 	<nav>
-		<img src="round_dehaze_white_18dp.png">
+		<img src="round_dehaze_white_18dp.PNG">
 	</nav>
 	<aside>
 		<ul>
@@ -111,7 +152,37 @@
 	
 		
 	</aside>
-	<section></section>
+	<section>
+		<form>
+
+		
+		<div id="d1">
+		<h2>Name&nbsp;&nbsp;<input id="d3" type="text" name="name"></h2>
+		<br><br><br>
+		
+
+		
+		
+
+		
+		
+		<h2>E-Mail&nbsp;&nbsp;<input id="d5" type="text" name="E-Mail" > @ <input type="text" list="date" id="d5">
+			<datalist id="date">
+				<option value="Naver.com" label="Naver">
+					<option value="Gmail.com" label="Google">
+						<option value="Daum.net" label="Daum">
+							<option value="Nate.com" label="Nate">
+								<option value="&nbsp;" label="직접입력">
+								
+					
+				
+			</datalist></h2>
+		<br><br><br>
+		<h2>Massage&nbsp;&nbsp;<input type="text" id="d4"></textarea>
+			<input type="submit" id="i1" value="Submit">
+		</datalist>
+	</form>
+	</section>
 	
 </body>
 
