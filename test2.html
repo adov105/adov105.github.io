@@ -57,7 +57,7 @@
 	margin-left: -200px;
     }
       section{
-	margin-top : 100px;
+      	margin-top : 100px;
     	margin-left: 600px;
     	width:1000px;
     	height: 790px;
@@ -79,6 +79,46 @@
     }
     #aisde3{
     }
+      #div1 {
+
+  background-color: #b5ad8a;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+ 
+  0%  {background-color:#b5ad8a; left:0px; top:1000px;}
+  100% {background-color:#b5ad8a; left:0px; top:0px;}
+}
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#div7 img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+ #div3 {
+
+  background-color: #868383;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+#div4{
+	padding-left: 10px;
+}
+
+
+
 </style>
 </head>
 <body>
@@ -91,7 +131,7 @@
 		<img src="round_dehaze_white_18dp.png"></a>
 	</nav>
 	<aside>
-		<ul>
+		<ul id="div1">
 			<li><img src="home.png"></li>
 			<li><a href="news.html"><img src="news_t.png"></li></a>
 			<li><a href="video.html"><img src="video_t.png"></li></a>
@@ -100,11 +140,13 @@
             <br>
             <li><a href="about.html"><img src="about.png"></li></a>
 		    <li><a href="cn.html"><img src="contact.png"></li></a>
+		    
 			
 	
 		
 	</aside>
 	<section>
+		<div id= "div7">
 		<img src="bg3.PNG" width="800" height="500">
 	</section>
 

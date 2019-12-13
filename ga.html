@@ -61,11 +61,17 @@
 	margin-left: -200px;
     }
     section{
+    	float: left;
     	margin-left: 400px;
-    	width:1250px;
+    	width:1350px;
     	height: 1000px;
     	border: solid 0px yellow;
     }
+    section li{
+    	float: left;
+
+    }
+
     #nav1 li{
     	display: inline;
     	
@@ -82,6 +88,77 @@
     #aisde3{
 
     }
+    .ft{
+    	float: left;
+    }
+
+    div.gallery {
+ 
+  float: left;
+  width: 300px;
+  height: 170px;
+
+}
+
+div.gallery:hover {
+  border: 0px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+#s1{
+	padding-left: 10px;
+}
+ #div3 {
+
+  background-color: #696038;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+#div4{
+	padding-left: 10px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+ 
+  0%  {background-color:white; left:100px; top:0px;}
+  100% {background-color:#696038; left:0px; top:0px;}
+}
+#s1{
+	padding: 0;
+	margin : 0;
+}
+#s1{
+	padding: 10;
+	margin : 10;
+}
+body {
+
+  background-color: #696038;
+  position: relative;
+  -webkit-animation-name: exampler; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: exampler;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampler {
+ 
+  0%  {background-color:white; left:0px; top:0px;}
+  100% {background-color:#696038; left:0px; top:0px;}
+}
 
 </style>
 </head>
@@ -96,11 +173,11 @@
 	</nav>
 	<aside>
 		<ul>
-		<li><a href="test2.html"><img src="home2.png"></li></a>
+		<a href="test2.html"><img src="home2.png"></li></a>
 			<li><a href="news.html"><img src="news_t.png"></li>
 			<li><a href="video.html"><img src="video_t.png"></li></a>
 		    <li><a href="at.html"><img src="air.png"></li></a>
-            <li><img src="gl2.png"></li>
+            <li><li id="div3"><img src="gl2.png"></li>
             <br>
             <li><a href="about.html"><img src="about.png"></li></a>
 		    <li><a href="cn.html"><img src="contact.png"></li></a>
@@ -109,14 +186,14 @@
 		
 	</aside>
 	<section>
-		<a href="ga2.html"><img src="ga/1.PNG" width="300" height="170"></a>&nbsp;
-		<a href="ga2_1.html"><img src="ga/2.PNG" width="300" height="170"></a>&nbsp;
-		<a href="ga2_2.html"><img src="ga/3.PNG" width="300" height="170"></a>&nbsp;
-		<a href="ga2_3.html"><img src="ga/4.PNG" width="300" height="170"></a><p><br>
-		<a href="ga2_4.html"><img src="ga/5.PNG" width="500" height="270"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="ga2_5.html"><img src="ga/6.PNG" width="700"></a><br><br>
-		<a href="ga2_6.html"><img src="ga/7.PNG" width="600"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="ga2_7.html"><img src="ga/8.PNG" width="600">
+		<span  class="gallery"><a href="ga/1_1.png"><img src="ga/1.PNG" width="300" height="170"></a>&nbsp;
+		<class="gallery"><a href="ga/2.png"><img src="ga/2.PNG" width="300" height="170"></a>&nbsp;
+		<span class="gallery"><a href="ga/3_1.png"><img src="ga/3.PNG" width="300" height="170"></a>&nbsp;
+		<span class="gallery"><a href="ga/4_1.png"><img src="ga/4.PNG" width="300" height="170"></a><p><br>
+		<span class="gallery"><a href="ga/5_1.png"><img src="ga/5.PNG" width="500" height="270"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class="gallery"><a href="ga/6_1.png"><img src="ga/6.PNG" width="700"></a><br><br>
+		<span class="gallery"><a href="ga/7.PNG"><img src="ga/7.PNG" width="600"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class="gallery"><a href="ga/8.PNG"><img src="ga/8.PNG" width="600">
 	</section>
 </body>
 

@@ -89,6 +89,7 @@
     	height: 500px;
     	padding-left: 110px;
     	padding-top: 50px;
+
     }
     #d3{
     	width: 200px;
@@ -123,6 +124,50 @@
     	font-size: 17px;
     }
 
+       #div3 {
+
+  background-color: #6990e9;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+#div4{
+	padding-left: 10px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+ 
+  0%  {background-color:#b5ad8a; left:100px; top:0px;}
+  100% {background-color:#6990e9; left:0px; top:0px;}
+}
+#div5 img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+table{
+	color: white;
+}
+
+ body {
+
+  background-color: #6990e9;
+  position: relative;
+  -webkit-animation-name: exampler; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: exampler;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampler {
+ 
+  0%  {background-color:#b5ad8a; left:0px; top:0px;}
+  100% {background-color:#6990e9; left:0px; top:0px;}
+}
 
 
     
@@ -131,15 +176,15 @@
 <body>
 	<div id="page">
 	<header>
-		<a href="test2.html"><img src="tit.png"></a>
+		<a href="test2.html"><img src="tit.PNG"></a>
 		
 		
 	</header>
 	<nav>
-		<img src="round_dehaze_white_18dp.png">
+		<img src="round_dehaze_white_18dp.PNG">
 	</nav>
 	<aside>
-		<ul>
+		<ul id="div5">
 			<li><a href="test2.html"><img src="home2.png"></li></a>
 			<li><a href="news.html"><img src="news_t.png"></li>
 			<li><a href="video.html"><img src="video_t.png"></li></a>
@@ -147,26 +192,35 @@
             <li><a href="ga.html"><img src="gl.png"></li></a>
             <br>
             <li><a href="about.html"><img src="about.png"></li></a>
-		    <li><img src="contact2.png"></li>
+		    <li id="div3"><img src="contact2.png"></li></div>
 			
 	
 		
 	</aside>
 	<section>
+		<div id="d1">
+		<table>
 		<form>
 
-		
-		<div id="d1">
-		<h2>Name&nbsp;&nbsp;<input id="d3" type="text" name="name"></h2>
-		<br><br><br>
-		
+		<tr>
+		<td>
+		<h2>Name
+			<td>&nbsp;<input id="d3" type="text" name="name"></h2><td>
+
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
 
 		
 		
 
 		
 		
-		<h2>E-Mail&nbsp;&nbsp;<input id="d5" type="text" name="E-Mail" > @ <input type="text" list="date" id="d5">
+
+		<tr>
+		
+		<td><h2>E-Mail</td>
+			<td>&nbsp;<input id="d5" type="text" name="E-Mail" > @ <input type="text" list="date" id="d5">
 			<datalist id="date">
 				<option value="Naver.com" label="Naver">
 					<option value="Gmail.com" label="Google">
@@ -176,12 +230,23 @@
 								
 					
 				
-			</datalist></h2>
-		<br><br><br>
-		<h2>Massage&nbsp;&nbsp;<input type="text" id="d4"></textarea>
-			<input type="submit" id="i1" value="Submit">
+			</datalist></h2></td>
+			<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+		
+		<td><h2>Massage</td>
+			<td>&nbsp;<input type="text" id="d4"></textarea></td>
+		</tr>
+			
 		</datalist>
+
+
 	</form>
+</table>
+<input type="submit" id="i1" value="Submit">
 	</section>
 	
 </body>

@@ -90,6 +90,66 @@
     	margin-bottom: 20px;
     }
 
+      #div3 {
+
+  background-color: white;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+#div4{
+	padding-left: 10px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+ 
+  0%  {background-color:white; left:100px; top:0px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+  #div6 {
+
+  background-color: white;
+  position: relative;
+  -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 2s;
+}
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes examplex {
+ 
+  30%  {background-color:white; opacity: 0%;}
+  100% {background-color:white; opacity: 100%}
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+body {
+
+  background-color: #white;
+  position: relative;
+  -webkit-animation-name: exampler; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.1s; /* Safari 4.0 - 8.0 */
+  animation-name: exampler;
+  animation-duration: 0.1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampler {
+ 
+  0%  {background-color:#868383; left:0px; top:0px;}
+  100% {background-color:#white; left:0px; top:0px;}
+}
+
 </style>
 </head>
 <body>
@@ -99,14 +159,14 @@
 		
 	</header>
 	<nav>
-		<img src="round_dehaze_black_18dp.png">
+		<img src="round_dehaze_black_18dp.PNG">
 	</nav>
 	<aside>
 		<ul>
 			<li><a href="test2.html"><img src="home.png"></li></a>
 			<li><a href="news.html"><img src="news_t2.png"></li>
 			<li><a href="video.html"><img src="video2.png"></li></a>
-		    <li><img src="air5.png"></li>
+		    <div id="div4"><li id="div3"><img src="air5.png"></li></div>
             <li><a href="ga.html"><img src="gl2.png"></li></a>
             <br>
             <li><a href="about.html"><img src="about2.png"></li></a>
@@ -117,10 +177,10 @@
 	</aside>
 	<section>
 
-		<a href="https://www.koreanair.com/korea/ko.html" target="_blank"><img src="air/b3.png" width="600"> </a>
+		<div id="div6"><a href="https://www.koreanair.com/korea/ko.html" target="_blank"><img src="air/b3.png" width="600"> </a>
 
 		<a href="https://flyasiana.com/C/KR/KO/index" target="_black"><img id="i1" src="air/b1.png" width="600"></a>
-		<a href="https://www.qantas.com/au/en.html" target="_blank"><img src="air/B2.png" width="600">
+		<a href="https://www.qantas.com/au/en.html" target="_blank"><img src="air/b2.png" width="600">
 	
 	</section>
 
